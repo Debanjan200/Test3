@@ -1,16 +1,29 @@
 #include <iostream>
 #include <thread>
+#include <mutex>
+
+std::mutex mt;
+
+int sum=1;
 
 void magic(){
-    int sum=1;
-    for(int i=0;i<10;i++){
-        sum*=i;
-    }
 
-    std::cout<<sum<<"\n";
+    std::lock_guard lk(mt);
+
+    for(int i=0;i<10;i++){
+        sum+=1;
+    }
 }
 
 int main(){
-    std::thread t1(magic);
-    t1.join();
+    std::thread t1[100];
+    for(int i=0;i<100;i++){
+        t1[i]=std::move(std::thread(magic));
+    }
+
+    for(int i=0;i<100;i++){
+        t1[i].join();
+    }
+
+    std::cout<<sum<<"\n";
 }
