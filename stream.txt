@@ -8,4 +8,5 @@ Changing some lines
 
 I am Adding one new line.
 
+I am adding line here to conflict
 I am adding one line to conflict
