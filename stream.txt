@@ -7,3 +7,5 @@ Dummy text? More like dummy thicc text, amirite?
 Changing some lines
 
 I am Adding one new line.
+
+I am adding one line to conflict
