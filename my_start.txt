@@ -8,3 +8,5 @@ I am adding a line(main) so there will be one conflict
 
 
 I am adding oneline in local system.
+
+Adding one line to stash
