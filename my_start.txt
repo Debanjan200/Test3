@@ -6,6 +6,5 @@ I am adding one line for fun
 
 I am adding a line(main) so there will be one conflict
 
-I am adding oneline in local system.
 
-I am adding oneline in remote.
+I am adding oneline in local system.
