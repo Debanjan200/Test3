@@ -11,8 +11,4 @@ I am Adding one new line.
 I am adding line here to conflict
 I am adding one line to conflict
 
-<<<<<<< HEAD
 I am adding a line here for rebasing.
-=======
-I am adding onefile in remote.
->>>>>>> a05f03ae908e5affd8caf434e4758a67d47b200f
