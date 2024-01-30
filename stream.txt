@@ -12,3 +12,5 @@ I am adding line here to conflict
 I am adding one line to conflict
 
 I am adding a line here for rebasing.
+
+I am adding one line after stash
